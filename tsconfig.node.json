@@ -1,23 +1,29 @@
 {
+  "extends": "./tsconfig.json",
   "compilerOptions": {
     "target": "ES2022",
     "lib": ["ES2023"],
-    "module": "ESNext",
+    "module": "CommonJS", // Changed to CommonJS for Node.js compatibility
     "skipLibCheck": true,
 
-    /* Bundler mode */
-    "moduleResolution": "bundler",
+    /* Node.js specific settings */
+    "moduleResolution": "node", // Changed to node for Node.js module resolution
     "allowImportingTsExtensions": true,
     "isolatedModules": true,
     "moduleDetection": "force",
-    "noEmit": false,  // Đã thay đổi thành false để cho phép xuất mã
-    "composite": true, // Thêm composite để hỗ trợ project references
+    "noEmit": false, // Keep as false to allow emitting code
+    "composite": true, // Keep composite to support project references
 
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* Output settings */
+    "outDir": "./dist", // Specify output directory
+    "rootDir": "./src" // Specify root directory
   },
-  "include": ["vite.config.ts"]
+  "include": ["src/**/*.ts", "vite.config.ts"], // Include all TypeScript files in src and vite.config.ts
+  "exclude": ["node_modules"] // Exclude node_modules
 }
