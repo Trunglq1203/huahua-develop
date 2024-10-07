@@ -1,0 +1,181 @@
+{
+  "practiceBox": [
+    {
+      "title": "Nghe hiểu",
+      "icon": "faHeadphones",
+      "color": "orange",
+      "type": 0
+    },
+    {
+      "title": "Đọc hiểu",
+      "icon": "faBookOpen",
+      "color": "green",
+      "type": 1
+    },
+    {
+      "title": "AI - Viết",
+      "icon": "faPencil",
+      "color": "#0369A1",
+      "type": 2
+    }
+  ],
+  "practiceExam": [
+    {
+      "title": "Thi thử online",
+      "icon": "faBookOpen"
+    },
+    {
+      "title": "Thi thử",
+      "icon": "faBookOpen"
+    },
+    {
+      "title": "Bao đỗ",
+      "icon": "faBookOpen"
+    },
+    {
+      "title": "Lý thuyết",
+      "icon": "faBookOpen"
+    },
+    {
+      "title": "HSKK",
+      "icon": "faBookOpen"
+    }
+  ],
+  "practicePropose": [
+    {
+      "title": "Chọn câu sai",
+      "icon": "faPencil",
+      "color": "text-slate-400"
+    },
+    {
+      "title": "Hội thoại",
+      "icon": "faPencil",
+      "color": "text-slate-400"
+    },
+    {
+      "title": "Tóm tắt đoạn văn",
+      "icon": "faPencil",
+      "color": "text-slate-400"
+    },
+    {
+      "title": "Đoạn văn dài",
+      "icon": "faPencil",
+      "color": "text-slate-400"
+    },
+    {
+      "title": "Điền vào chỗ trống",
+      "icon": "faPencil",
+      "color": "text-slate-400"
+    }
+  ],
+  "practiceDetail": [
+    {
+      "title": "Nghe hiểu",
+      "backgroundColor": "bg-orange-300",
+      "totalCompleted": 0,
+      "totalSuccess": 0,
+      "lesson": [
+        {
+          "title": "Đúng hay sai",
+          "success": 0,
+          "total": 0,
+          "isLock": false,
+          "answer": "truefalse"
+        },
+        {
+          "title": "Ghép ảnh với audio",
+          "success": 0,
+          "total": 0,
+          "isLock": false,
+          "answer": "multiplechoice"
+        },
+        {
+          "title": "Hội thoại ngắn",
+          "success": 0,
+          "total": 0,
+          "isLock": true,
+          "answer": "multiplechoice"
+        },
+        {
+          "title": "Hội thoại trung",
+          "success": 0,
+          "total": 0,
+          "isLock": true,
+          "answer": "multiplechoice"
+        }
+      ]
+    },
+    {
+      "title": "Đọc hiểu",
+      "backgroundColor": "bg-orange-300",
+      "totalCompleted": 0,
+      "totalSuccess": 0,
+      "lesson": [
+        {
+          "title": "Ghép ảnh với câu",
+          "success": 0,
+          "total": 0,
+          "isLock": false,
+          "answer": "multiplechoice"
+        },
+        {
+          "title": "Điền vào chỗ trống",
+          "success": 0,
+          "total": 0,
+          "isLock": false,
+          "answer": "multiplechoice"
+        },
+        {
+          "title": "Đúng hay sai",
+          "success": 0,
+          "total": 0,
+          "isLock": true,
+          "answer": "truefalse"
+        },
+        {
+          "title": "Hỏi và trả lời",
+          "success": 0,
+          "total": 0,
+          "isLock": true,
+          "answer": "multiplechoice"
+        }
+      ]
+    },
+    {
+      "title": "AI - Viết",
+      "backgroundColor": "bg-orange-300",
+      "totalCompleted": 0,
+      "totalSuccess": 0,
+      "lesson": [
+        {
+          "title": "Ghép ảnh với câu",
+          "success": 0,
+          "total": 0,
+          "isLock": false,
+          "answer": "multiplechoice"
+        },
+        {
+          "title": "Hội thoại ngắn",
+          "success": 0,
+          "total": 0,
+          "isLock": true,
+          "answer": "multiplechoice"
+        },
+        {
+          "title": "Hội thoại trung",
+          "success": 0,
+          "total": 0,
+          "isLock": true,
+          "answer": "multiplechoice"
+        },
+        {
+          "title": "Hỏi và trả lời",
+          "success": 0,
+          "total": 0,
+          "isLock": true,
+          "answer": "multiplechoice"
+        }
+      ]
+    }
+  ]
+}
