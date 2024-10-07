@@ -15,7 +15,7 @@
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": false,  // Đổi thành false nếu cần xuất mã
+    "noEmit": false,  // Đã đổi thành false để cho phép xuất mã
     "jsx": "react-jsx",
 
     /* Linting */
