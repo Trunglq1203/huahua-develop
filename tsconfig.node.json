@@ -10,7 +10,8 @@
     "allowImportingTsExtensions": true,
     "isolatedModules": true,
     "moduleDetection": "force",
-    "noEmit": true,
+    "noEmit": false,  // Loại bỏ hoặc đổi thành false để cho phép xuất mã
+    "composite": true, // Thêm composite để hỗ trợ project references
 
     /* Linting */
     "strict": true,
